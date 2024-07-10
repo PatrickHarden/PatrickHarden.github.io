@@ -24,10 +24,11 @@ const t_1 = universal(import('../src/pages/Ex3'), universalOptions)
 const t_2 = universal(import('../src/pages/Lms'), universalOptions)
 const t_3 = universal(import('../src/pages/Framework'), universalOptions)
 const t_4 = universal(import('../src/pages/Framework2'), universalOptions)
-const t_5 = universal(import('../src/pages/AWB'), universalOptions)
-const t_6 = universal(import('../src/pages/Work'), universalOptions)
-const t_7 = universal(import('../src/pages/Home'), universalOptions)
-const t_8 = universal(import('../src/pages/404'), universalOptions)
+const t_5 = universal(import('../src/pages/Scholastic'), universalOptions)
+const t_6 = universal(import('../src/pages/AWB'), universalOptions)
+const t_7 = universal(import('../src/pages/Work'), universalOptions)
+const t_8 = universal(import('../src/pages/Home'), universalOptions)
+const t_9 = universal(import('../src/pages/404'), universalOptions)
 
 
 // Template Map
@@ -40,12 +41,13 @@ t_4,
 t_5,
 t_6,
 t_7,
-t_8
+t_8,
+t_9
 ]
 
 // Template Tree
 global.templateIDsByPath = global.templateIDsByPath || {
-  '404': 8
+  '404': 9
 }
 
 // Get template for given path
