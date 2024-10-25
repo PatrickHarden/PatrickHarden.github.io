@@ -2462,6 +2462,42 @@ exports.default = function () {
         ),
         _react2.default.createElement(
           _reactStatic.Link,
+          { to: 'https://github.com/PatrickHarden/dataentry', target: '_blank', className: 'work-link work-link--50' },
+          _react2.default.createElement(
+            'div',
+            { className: 'work-link-wrapper' },
+            _react2.default.createElement('img', { className: 'work-link-image', style: { minHeight: '273px' }, src: 'https://i.imgur.com/oWhB1E3.png' }),
+            _react2.default.createElement(
+              'div',
+              { className: 'work-link-content' },
+              _react2.default.createElement(
+                'h3',
+                { className: 'link-content__header' },
+                'CBRE Data Entry'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _reactStatic.Link,
+          { to: 'https://github.com/PatrickHarden/globalListing-v1', target: '_blank', className: 'work-link work-link--50' },
+          _react2.default.createElement(
+            'div',
+            { className: 'work-link-wrapper' },
+            _react2.default.createElement('img', { className: 'work-link-image', style: { minHeight: '273px' }, src: 'https://i.imgur.com/Cm8lzuy.png' }),
+            _react2.default.createElement(
+              'div',
+              { className: 'work-link-content' },
+              _react2.default.createElement(
+                'h3',
+                { className: 'link-content__header' },
+                'CBRE Property Listings'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _reactStatic.Link,
           { to: '/expect3', className: 'work-link work-link--50' },
           _react2.default.createElement(
             'div',
@@ -4007,6 +4043,15 @@ exports.default = (0, _reactStatic.withSiteData)(function (_React$Component) {
                                             null,
                                             _react2.default.createElement(
                                                 _reactStatic.Link,
+                                                { to: 'https://github.com/PatrickHarden', target: '_blank', className: 'nav-link', onClick: this.toggle },
+                                                'Github'
+                                            )
+                                        ),
+                                        _react2.default.createElement(
+                                            _reactstrap.NavItem,
+                                            null,
+                                            _react2.default.createElement(
+                                                _reactStatic.Link,
                                                 { to: '/#work', className: 'nav-link', onClick: this.toggle },
                                                 'Work'
                                             )
@@ -4156,4 +4201,4 @@ exports.default = (0, _reactStatic.withSiteData)(function (_React$Component) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.c73e7bf8.js.map
+//# sourceMappingURL=static.83237cc5.js.map
